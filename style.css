@@ -87,6 +87,42 @@ body {
     background: #cec1c8;
 }
 
+.portfolio-slide{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 2px solid #000000
+}
+
+.slide.left{
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    flex-direction: row;
+}
+.projects{
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+}
+
+.slide.right{
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: right;
+    border-left: 2px solid #000000;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-text{
+    font-size: 0.4;
+    font-weight: 300;
+}
+
 .side-panel.right {
     background: #cec1c8;
 }
@@ -155,5 +191,4 @@ body {
     font-size: 0.75vw;
     font-weight: 600;
     padding: 0%;
-
 }
